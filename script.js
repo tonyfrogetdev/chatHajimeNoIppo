@@ -9,7 +9,7 @@ let displayedBotResponses = [];
 const createChatLi = (message, className) => {
     const chatLi = document.createElement("li");
     chatLi.classList.add("chat", className);
-    let chatContent = className === "moi" ? `<p>${message}</p><img src="/25-10-2023/chatBox/images/ippo.png" alt="">` : `<img src="/25-10-2023/chatBox/images/kamogawa.png" alt=""><p>${message}</p>`
+    let chatContent = className === "moi" ? `<p>${message}</p><img src="images/ippo.png" alt="">` : `<img src="images/kamogawa.png" alt=""><p>${message}</p>`
     chatLi.innerHTML = chatContent;
     return chatLi;
 }

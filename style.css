@@ -60,7 +60,7 @@ table {
     justify-content: center;
     margin:auto;
     border-radius: 15px;
-    background: url(/25-10-2023/chatBox/images/ring.png);
+    background: url(images/ring.png);
     margin-top: 150px;
 }
 
@@ -126,7 +126,7 @@ table {
     position: fixed;
     bottom: 220px;
     background-color: white; 
-    border: solid 2px rgba(255, 218, 185, 0.877); ;
+   
     border-radius: 15px;
  
     
